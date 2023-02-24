@@ -47,14 +47,16 @@ export default function Home() {
         {/* section 1  */}
         <section className="min-h-screen">
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Cristian Sanchez
-            </h2>
+            <a id="home" className="">
+              <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+                Cristian Sanchez
+              </h2>    
+            </a>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
               Web Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I<span>&#39;</span>m a React Developer Bringing forth a motivated attitude, along with a variety of coding skills.
+              As a developer I bring forth a motivated attitude along with a variety of coding skills.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href='https://twitter.com/Cristian_14715' target="_blank" rel="noreferrer" >
@@ -79,8 +81,8 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white ">What I Do</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a developer, I<span>&#39;</span>ve attended classes at 
-              <span className="text-teal-500"> General Assemply </span>and a alumni at<span className="text-teal-500"> 
-              Zero To Mastery </span>. Continuing to learn and develop my skills as a Full Stack devloper
+              <span className="text-teal-500"> General Assemply </span>and an alumni at <span className="text-teal-500"> 
+               Zero To Mastery </span>. I am Continue to learn and develop my skills as a Full Stack devloper.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               My experiences are: 
@@ -94,7 +96,7 @@ export default function Home() {
                   Front-End Development
                 </h3>
                 <p className="py-2">
-                  Focuse on layout,animations, content organization, navigation, graphics.
+                  Focuses on layout, animations, content organization, navigation, graphics.
                 </p>
                 <div>
                   <div className='p-10'>
@@ -116,27 +118,28 @@ export default function Home() {
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
               <Image src={code} width={100} height={100} alt='' />
-              <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Back-End Developer
-              </h3>
-              <p className="py-2">
-                Focuses on building code, debugging, database management.
-              </p>
-              <div>
+              <div className=' shadow-xl p-10 rounded-xl my-10 flex-1 '>
+                <h3 className="text-lg font-medium pt-8 pb-2 ">
+                  Back-End Developer
+                </h3>
+                <p className="py-2">
+                  Focuses on building code, debugging, database management.
+                </p>
+                <div>
                   <div className='p-10'>
                     <h4 className="text-teal-600">Languages:</h4>
                     <p className="text-gray-800 py-1">Node.js</p>
                     <p className="text-gray-800 py-1">JavaScript</p>
                     <p className="text-gray-800 py-1">Python</p>
-                     
                   </div>
                   <div className='p-10'>
-                    <h4 className="text-teal-600">Framework:</h4>
-                    <p className="text-gray-800 py-1">Django</p>
-                    <p className="text-gray-800 py-1">ReactJS</p>
-                    <p className="text-gray-800 py-1">Express.js</p>
+                      <h4 className="text-teal-600">Framework:</h4>
+                      <p className="text-gray-800 py-1">Django</p>
+                      <p className="text-gray-800 py-1">ReactJS</p>
+                      <p className="text-gray-800 py-1">Express.js</p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
         </section>
@@ -144,8 +147,10 @@ export default function Home() {
         {/* section 3  */}
         <section className="py-10">
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+            <a id="work" className="">
+              <span className="text-3xl loading-10 font-bold  py-1 dark:text-white ">Portofolio</span>
+            </a>
+            <p className="mt-6 text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
               Since the beginning of my journey as a Web Developer. I<span>&#39;</span>ve improved on 
               my skills as a devloper by building websites.
             </p>
@@ -210,6 +215,24 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* section 4 */}
+        <div className="container pb-12 mt-10 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full dark:text-white">
+          <div className="w-full text-black dark:text-white">
+            <h2 id="hire" className="text-2xl loading-10 font-bold">Hire me</h2>
+            <p className="mt-6 text-slate-400">Feel free to to contact me any time, through my method below.</p>
+              <a href="https://mailchi.mp/e374a212b5dd/ztm-students">
+                <button className="mt-10 block bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm p-1 border-none rounded-md">Contact Me</button> 
+              </a>
+              <div className="mb-12 pb-12 mt-10 dark:text-white"> 
+                <p className="text-secondary">541-709-6181</p>
+                <a href="https://mailchi.mp/a6d14010e8ee/cristian-sanchez" className="text-secondary underline mt-3 block">cristian.manu7@gmail.com</a>
+              </div>
+              <a href='#home'>
+                <button className="mt-10 block bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-sm p-1 border-none rounded-md">Back To The Top</button>
+              </a>
+          </div>
+		    </div>
       </main>
     </div>
   );
