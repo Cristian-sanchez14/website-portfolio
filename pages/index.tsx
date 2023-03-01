@@ -16,7 +16,7 @@ import web2 from "../public/portfolio/smart-brain.png";
 import web3 from "../public/portfolio/netflix-img.png";
 import web4 from "../public/portfolio/dotsgame.png";
 import web5 from "../public/portfolio/soccer.png";
-import web6 from "../public/web6.png";
+import web6 from "../public/portfolio/fitness-img.png";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -209,12 +209,14 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                layout="responsive"
-                src={web6}
-                alt=''
-              />
+              <a href='https://fitnessapp-evogym.netlify.app/'>
+                <Image
+                  className="rounded-lg object-cover"
+                  layout="responsive"
+                  src={web6}
+                  alt=''
+                />
+              </a>
             </div>
           </div>
         </section>
