@@ -15,7 +15,7 @@ import web1 from "../public/portfolio/store-estore.png";
 import web2 from "../public/portfolio/smart-brain.png";
 import web3 from "../public/portfolio/netflix-img.png";
 import web4 from "../public/portfolio/dotsgame.png";
-import web5 from "../public/portfolio/soccer.png";
+import web5 from "../public/portfolio/social-app.png";
 import web6 from "../public/portfolio/fitness-img.png";
 
 export default function Home() {
@@ -199,7 +199,7 @@ export default function Home() {
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href='https://react-app-soccer.netlify.app/' target="_blank" rel="noreferrer">
+              <a href='' target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 layout="responsive"
